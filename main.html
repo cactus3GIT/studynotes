@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>StudyNotes</title>
+    <style>
+textarea {
+  width: 30%;
+  height: 50%;
+}
+body {
+  font-family: cursive;
+  color: black;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+    background-color: #3bdd34;
+}
+
+.right {
+  right: 0;
+    background-color: #069600;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+<div class="split left">
+    <div class="centered">
+<h1 style="text-align: center">Study Notes Generator</h1>
+<p>by Mark Skinner</p>
+    <input placeholder="enter title of paragraph">
+    <br>
+    <br>
+<textarea name="message" placeholder="Paste in full paragraph from textbook" style="width: 572px; height: 296px;"></textarea>
+    <br>
+<button >Convert!</button>
+<div  id="post-body-5314869226162461043" itemprop="description articleBody">
+<a href="https://sites.google.com/a/share.epsb.ca/social-studies-department/grade-10/10-1/related-issue-1-1" target="_blank">SOC-10 Globalization</a>
+    <br>
+<a href="https://sites.google.com/a/share.epsb.ca/social-studies-department/grade-11/20-1/related-issue-1" target="_blank">OC-20 Exploring Nationalism Text</a>
+    <br>
+<a href="https://sites.google.com/a/share.epsb.ca/social-studies-department/grade-12/30-2/related-issue-1" target="_blank">SOC-30 Perspectives on Ideology</a>
+    <br>
+</div>
+    </div>
+    </div>
+    
+    <div class="split right">
+  <div class="centered">
+    <h3>Your study notes will appear here!</h3>
+    <p>once it's done processing, paste this text into your google docs to make your complete study notes</p>
+  </div>
+</div>
+</body>
+</html> 
